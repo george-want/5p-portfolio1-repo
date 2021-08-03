@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: #262322;
+}
+
+h1, h2 {
+    font-family: 'Amatic SC', sans-serif;
+}
+
+/* nav bar */
+
+header {
+    line-height: 75px;
+}
+
+#RCT-logo {
+    float: left;
+    font-size: 250%;
+    margin: 10px 30px;
+    letter-spacing: 2px;
+    color: #afbfc0
+}
+
+#menu li {
+    float: right;
+    font-size: 120%;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #afbfc0
+}

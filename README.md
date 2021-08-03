@@ -11,6 +11,7 @@ The goal of the site is to guide the user towards booking a tour with the compan
 The company needs the following pages:
 -   Homepage, featuring:
     - Navigation bar
+    - Hero image
     - About Rainy City Tours
     - Links to social media
 -   Our Tours
@@ -49,9 +50,8 @@ Vivid images are chosen to contrast against this background - see more in Images
 
 ## Features
 
-- **Mobile-first design**
-    - Since most of the company's users are expected to be using mobile devices, the CSS is written for smaller screens initially
-    - Elements scale up to bigger screen sizes rather than scaling down, making it more efficient for smaller devices
+- **Responsive design**
+    - Since most of the company's users are expected to be using mobile devices, the CSS is optimised for all screen sizes
 
 - **Header and Nav Bar**
     - Features the key links for the user to navigate, Home, Our Tours and Book/Contact
