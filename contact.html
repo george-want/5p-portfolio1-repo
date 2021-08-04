@@ -29,13 +29,50 @@
         </nav>    
     </header>
     <section id="booking">
-        <h2>Book a Tour</h2>
-        <form></form>
+        <div>
+            <h2>Book a Tour</h2>
+            <form>
+                <label for="tour-name">Name</label>
+                <input id="tour-name" name="name" type="text" required>
+                <label for="tour-email">Email Address</label>
+                <input id="tour-email" name="email" type="email" required>
+                <label for="tour-telephone">Telephone Number</label>
+                <input id="tour-telephone" name="telephone-number" type="tel" required>
+                <label for="tour-selection">Which tour are you booking?</label>
+                <select id="tour-selection" name="tour-selection">
+                    <option value="city-centre">Manchester City Centre (Mondays & Sundays)</option>
+                    <option value="music-legends">Manchester Music Legends (Thursdays)</option>
+                    <option value="pub-crawl">Manchester Pub Crawl (Fridays)</option>
+                </select>
+                <label for="tour-date">Date</label>
+                <input id="tour-date" name="tour-date" type="date">
+                <label for="ticket-number">Number of guests</label>
+                <input for="ticket-number" name="ticket-number" type="number">
+                <label for="access-requirements">Do you have any access requirements?</label>
+                <input id="access-requirements" name="access-requirements" type="text">
+                <label for="cash-card">Will you be paying cash or card?</label>
+                <select id="cash-card" name="cash-card">
+                    <option value="cash">Cash</option>
+                    <option value="card">Card</option>
+                </select>
+                <input type="submit" value="Book now!">
+            </form>
+        </div>
     </section>
     <section id="bespoke">
-        <h2>Bespoke Tour Enquiries</h2>
-        <p>Get in touch to ask about personalised tours - we'll get back in touch within 24 hours.</p>
-        <form></form>
+        <div>
+            <h2>Bespoke Tour Enquiries</h2>
+            <p>Get in touch to ask about personalised tours - we'll get back in touch within 24 hours. Let us know your budget, interests and timeframe!</p>
+            <form>
+                <label for="bespoke-name">Name</label>
+                <input id="bespoke-name" name="name" type="text" required>
+                <label for="bespoke-email">Email Address</label>
+                <input id="bespoke-email" name="email" type="email" required>
+                <label for="bespoke-enquiry">What tour are you looking for for?</label>
+                <textarea id="bespoke-enquiry" name="enquiry" type="textarea" rows="5" cols="40"></textarea>
+                <input type="submit">
+            </form>
+        </div>
     </section>
     <footer>
         <ul class="social-networks">
