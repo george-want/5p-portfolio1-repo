@@ -1,3 +1,5 @@
+Please don't worry about giving me feedback for this project. I'm submitting something just so that I can submit and request a leave of absence. Don't waste your time with feedback or marking, just fail it and carry on. Thank you and sorry for wasting your time.
+
 # Rainy City Tours
 
 The aim for this project is to provide a simple site for a tour company operating group and bespoke tours of Manchester, UK. The objective is the demonstrate my current skills in HTML and CSS. As for the site, it is intended to be a simple front-end application which provides a static, easy-to-navigate front-end site with clear purpose and emotive and responsive design.
